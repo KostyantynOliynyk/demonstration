@@ -10,10 +10,15 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { PostItemComponent } from './components/post-item/post-item.component';
 import { AddNewPostFormComponent } from './components/add-new-post-form/add-new-post-form.component';
+import { LoginComponent } from './components/login/login.component';
 // modules
 import { HttpClientModule } from '@angular/common/http';
 import { RoutingModule } from './routing.module';
 import { FormsModule } from "@angular/forms";
+import { ReactiveFormsModule } from '@angular/forms';
+import { RegistrationComponent } from './components/registration/registration.component';
+
+
 
 
  
@@ -27,13 +32,16 @@ import { FormsModule } from "@angular/forms";
     NotFoundComponent,
     BlogComponent,
     PostItemComponent,
-    AddNewPostFormComponent
+    AddNewPostFormComponent,
+    LoginComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     RoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
