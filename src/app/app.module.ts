@@ -11,12 +11,14 @@ import { BlogComponent } from './components/blog/blog.component';
 import { PostItemComponent } from './components/post-item/post-item.component';
 import { AddNewPostFormComponent } from './components/add-new-post-form/add-new-post-form.component';
 import { LoginComponent } from './components/login/login.component';
+import { RegistrationComponent } from './components/registration/registration.component';
+import { BgDirective } from './directives/bg.directive';
 // modules
 import { HttpClientModule } from '@angular/common/http';
 import { RoutingModule } from './routing.module';
 import { FormsModule } from "@angular/forms";
 import { ReactiveFormsModule } from '@angular/forms';
-import { RegistrationComponent } from './components/registration/registration.component';
+
 
 
 
@@ -34,7 +36,8 @@ import { RegistrationComponent } from './components/registration/registration.co
     PostItemComponent,
     AddNewPostFormComponent,
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    BgDirective
   ],
   imports: [
     BrowserModule,

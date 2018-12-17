@@ -1,6 +1,13 @@
+.container{
+        margin-top: 5%;
+}
 .progress-bar{
         background-color: black;
 }
 .table{
-        background-color: lightgray;
+        background-color: rgb(156, 151, 151);
+        box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.397);
+}
+tr:hover{
+        background-color: rgb(185, 185, 230)
 }

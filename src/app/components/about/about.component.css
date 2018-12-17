@@ -1,10 +1,36 @@
 
 .card{
         height: 100%;
+        border : none;
+        background-color: rgba(97, 165, 197, 0.596);
+        font-family: cursive;
+        font-size: 18px;
+}
+.card:hover{
+        box-shadow: 0 5px 15px 5px rgba(11, 51, 116, 0.397);
+}
+.shadow-box{
+        box-shadow: 0 5px 15px 0 rgba(11, 51, 116, 0.397);
+        padding: unset;
+        
+}
+.width{
+        width: 100% !important;
 }
 .card-header{
-        background-color: rgb(191, 199, 200);
+        background-color: rgba(23, 99, 110, 0.89);
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: rgb(175, 221, 185);
+        font-family: sans-serif;
+        letter-spacing: 3px;
 }
-.card-footer{
-        background-color: rgb(191, 199, 200);
+
+.row{
+        margin-top: 7rem!important;
+}
+
+.body{
+        background-color: grey!important;
 }
